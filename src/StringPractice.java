@@ -27,7 +27,7 @@ public class StringPractice {
     // Use a built-in method to achieve this instead of using a loop
     System.out.println(list.toString());
     // Check whether two strings are equal
-
+    System.out.println(string.equals(list.get(0)));
     /*
      * Reminder!
      * 
