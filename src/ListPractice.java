@@ -6,9 +6,11 @@ public class ListPractice {
     // Create an empty ArrayList of Strings and assign it to a variable of type List
     List<String> strList = new ArrayList<>();
     // Add 3 elements to the list (OK to do one-by-one)
-    
+    strList.add("John");
+    strList.add("Doe");
+    strList.add("Happy");
     // Print the element at index 1
-
+    System.out.println(strList.get(1));
     // Replace the element at index 1 with a new value
     // (Do not insert a new value. The length of the list should not change)
 
