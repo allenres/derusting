@@ -17,7 +17,8 @@ public class NumberPractice {
       System.out.println("Number is odd.");
     }
     // Divide the number by another number using integer division
-
+    int result = posValue / 3;
+    System.out.println(result);
     /*
      * Reminder!
      * 
