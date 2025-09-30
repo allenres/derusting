@@ -13,9 +13,12 @@ public class ListPractice {
     System.out.println(strList.get(1));
     // Replace the element at index 1 with a new value
     // (Do not insert a new value. The length of the list should not change)
-
+    strList.set(1, "Sad");
     // Insert a new element at index 0 (the length of the list will change)
-
+    strList.add(0, "Angry");
+    for(String s : strList) {
+      System.out.print(s + " ");
+    }
     // Check whether the list contains a certain string
 
     // Iterate over the list using a traditional for-loop.
