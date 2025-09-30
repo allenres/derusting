@@ -1,5 +1,6 @@
 import java.util.List;
 import java.util.ArrayList;
+import java.util.Collections;
 public class ListPractice {
 
   public static void main(String[] args) {
@@ -31,10 +32,16 @@ public class ListPractice {
       System.out.println(strList.get(i));
     }
     // Sort the list using the Collections library
-
+    Collections.sort(strList);
     // Iterate over the list using a for-each loop
+    for(String s : strList) {
+      System.out.print(s + " ");
+    }
+    System.out.println();
     // Print each value on a second line
-
+    for(String s : strList) {
+      System.out.println(s);
+    }
     /*
      * Usage tip!
      * 
