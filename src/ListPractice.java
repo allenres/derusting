@@ -19,11 +19,17 @@ public class ListPractice {
     for(String s : strList) {
       System.out.print(s + " ");
     }
+    System.out.println();
     // Check whether the list contains a certain string
-
+    if(strList.contains("Sad")) {
+      System.out.println("True");
+    }
     // Iterate over the list using a traditional for-loop.
     // Print each index and value on a separate line
-
+    for(int i = 0; i < strList.size(); i++) {
+      System.out.println("Index: " + i);
+      System.out.println(strList.get(i));
+    }
     // Sort the list using the Collections library
 
     // Iterate over the list using a for-each loop
