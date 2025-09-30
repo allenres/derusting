@@ -12,11 +12,13 @@ public class SetPractice {
     // Check whether the Set contains a given String
     System.out.println(hashSet.contains("Doe"));
     // Remove an element from the Set
-    
+    hashSet.remove("Doe");
     // Get the size of the Set
-
+    System.out.println(hashSet.size());
     // Iterate over the elements of the Set, printing each one on a separate line
-
+    for(String str : hashSet) {
+      System.out.println(str);
+    }
     /*
      * Warning!
      * 
