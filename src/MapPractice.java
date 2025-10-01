@@ -1,5 +1,7 @@
 import java.util.Map;
+import java.util.Collection;
 import java.util.HashMap;
+import java.util.Set;
 
 public class MapPractice {
   public static void main(String[] args) {
@@ -24,11 +26,22 @@ public class MapPractice {
     // Check whether the Map contains a given value
     System.out.println(hashMap.containsValue(20));
     // Iterate over the keys of the Map, printing each key
-    
+    Set<String> keys = hashMap.keySet();
+    for(String key : keys) {
+      System.out.print(key);
+    }
     // Iterate over the values of the map, printing each value
-
+    Collection<Integer> values = hashMap.values();
+    for(int value : values) {
+      System.out.print(value);
+    }
+    System.out.println();
     // Iterate over the entries in the map, printing each key and value
-
+    for(Map.Entry<String, Integer> entry : hashMap.entrySet()) {
+      String key = entry.getKey();
+      int value = entry.getValue();
+      System.out.println("Key: " + key + "Value: "+ value); 
+    }
     /*
      * Usage tip!
      * 
