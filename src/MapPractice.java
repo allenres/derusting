@@ -15,15 +15,16 @@ public class MapPractice {
     // Get the value associated with a given key in the Map
     System.out.println(hashMap.get("John"));
     // Find the size (number of key/value pairs) of the Map
-
+    System.out.println(hashMap.size());
     // Replace the value associated with a given key (the size of the Map shoukld not change)
-
+    hashMap.replace("David", 50, 20);
+    System.out.println(hashMap.size());
     // Check whether the Map contains a given key
-
+    System.out.println(hashMap.containsKey("David"));
     // Check whether the Map contains a given value
-
+    System.out.println(hashMap.containsValue(20));
     // Iterate over the keys of the Map, printing each key
-
+    
     // Iterate over the values of the map, printing each value
 
     // Iterate over the entries in the map, printing each key and value
