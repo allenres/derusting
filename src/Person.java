@@ -36,7 +36,7 @@ public class Person {
    */
   // (create the instance method here)
   public int birthYear(int currentYear) {
-    return age - currentYear;
+    return currentYear - age;
   }
 
   public static void main(String[] args) {
@@ -54,9 +54,9 @@ public class Person {
     // Using the birthYear method, get the birth year of the first person
     // and store it in a local variable. Input the actual current year (e.g. 2025)
     // as the argument.
-
+    int birthYear = person.birthYear(2025);
     // In a separate statement, print the local variable holding the birth year.
-
+    System.out.println(birthYear);
     /**
      * Terminology!
      * 
